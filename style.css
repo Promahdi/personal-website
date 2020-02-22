@@ -44,12 +44,19 @@ body,html {
         padding-bottom: 250px;
     }
     .link-button{
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
         text-decoration: none;
-        background-image: linear-gradient(45deg,hotpink, tomato); padding: 10px 30px;
+        transition: .3s;
         display: inline-block;
+        padding: 14px 30px;
+        color: #fff;
         border-radius: 5px;
-        color: white;
-        font-weight: 400;
+    }
+    .link-button:hover{
+        box-shadow: 0 0 5px tomato;
     }
     .btn5{
         border:none;
@@ -72,19 +79,7 @@ body,html {
     #biography-text{
         padding-top: 150px;
     }
-    .cv-button{
-        text-decoration: none;
-        background-image: linear-gradient(45deg,hotpink, tomato); padding: 10px 30px;
-        border-radius: 5px;
-        color: white;
-        font-weight: 400;
-    }
-    ​.cv-button:active:after {
-        padding: 0;
-        margin: 0;
-        opacity: 1;
-        transition: 0s
-      }
+    
     .work-banner{
         padding-top: 100px;
         background-image:url("images/personal-website/latest-work-bg.png");
